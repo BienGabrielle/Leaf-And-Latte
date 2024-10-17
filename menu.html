@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Leaf & Latte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <section class="menu-page">
+        <header>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <nav id="nav" class="hidden">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <h1>Leaf & Latte</h1>
+            </div>
+        </header>
+
+        <div class="menu-hero">
+            <h2>Our Menu</h2>
+            <p>Coffee and Food solves <span class="highlight">Stress</span></p>
+        </div>
+
+        <section class="menu-items">
+            <div class="menu-category">
+                <h3>Coffee</h3>
+                <ul>
+                    <li>Espresso – $3.00</li>
+                    <li>Americano – $3.50</li>
+                    <li>Cappuccino – $4.00</li>
+                    <li>Latte – $4.50</li>
+                    <li>Flat White – $4.00</li>
+                    <li>Mocha – $5.00
+                    <li>Macchiato – $3.75
+                    <li>Cold Brew – $4.25
+                    <li>Iced Latte – $4.75
+                    <li>Nitro Cold Brew – $5.50
+                    <li>Affogato – $6.00
+                    <li>Caramel Macchiato – $5.50
+                    <li>Matcha Latte – $5.25
+                    <li>Chai Latte – $4.75</li>
+                    <li>Turkish Coffee – $4.00</li>
+                    <li>Iced Mocha – $5.25</li>
+                    <li>Cortado – $4.25</li>
+                    <li>Irish Coffee – $6.50</li>
+                    <li>French Press – $4.75</li>
+                    <li>Café au Lait – $4.25</li></li>
+                </ul>
+            </div>
+            <div class="menu-category">
+                <h3>Food/Bread</h3>
+                <ul>
+                    <li>Avocado Toast – $6.00</li>
+                    <li>  Croissant – $3.00</li>
+                    <li>Bacon and Egg Sandwich – $7.50</li>
+                    <li>Grilled Cheese – $5.00
+                    <li>Bagel with Cream Cheese – $4.00</li>
+                    <li>Sourdough with Butter – $3.50</li>
+                    <li>Breakfast Burrito – $8.00</li>
+                    <li>Turkey and Avocado Sandwich – $9.00</li>
+                    <li>Panini (Ham & Cheese) – $7.50</li>
+                    <li>Vegan Wrap – $8.50</li>
+                    <li>French Toast – $7.00</li>
+                    <li>Spinach & Feta Roll – $6.50</li>
+                    <li>Focaccia – $4.25</li>
+                    <li>Almond Croissant – $4.00</li>
+                    <li>Quiche (Spinach & Mushroom) – $6.75</li>
+                    <li>Smoked Salmon Bagel – $9.25</li>
+                    <li>Chicken Caesar Wrap – $8.75</li>
+                    <li>Cinnamon Raisin Bagel – $3.50</li>
+                    <li>BLT Sandwich – $8.00</li>
+                    <li>Bruschetta – $6.00</li>
+                </ul>
+            </div>
+            <div class="menu-category">
+                <h3>Dessert</h3>
+                <ul>
+                    <li>Chocolate Cake – $5.00</li>
+                    <li>Blueberry Cheesecake – $5.50</li>
+                    <li>Tiramisu – $6.00</li>
+                    <li>Macarons (3 pieces) – $4.50</li>
+                    <li>Lemon Tart – $5.00
+                        <li>Brownie – $3.75</li>
+                        <li>Cinnamon Roll – $4.00</li>
+                        <li>Almond Biscotti – $3.50</li>
+                        <li>Fruit Tart – $5.50</li>
+                        <li>Éclair – $4.25</li>
+                        <li>Panna Cotta – $6.00</li>
+                        <li>Ice Cream Sundae – $6.25</li>
+                        <li>Raspberry Sorbet – $4.75</li>
+                        <li>Matcha Green Tea Cake – $6.00</li>
+                        <li>Profiteroles – $5.75</li>
+                        <li>Crème Brûlée – $6.25</li>
+                        <li>Apple Pie – $5.00</li>
+                        <li>Chocolate Chip Cookies (3 pieces) – $3.50</li>
+                        <li>Carrot Cake – $5.50</li>
+                        <li>Red Velvet Cake – $6.00</li>
+                </ul>
+            </div>
+        </section>
+
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Leaf & Latte. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <img src="img/facebook-twitter-instagram-logo-number-symbol-text-trademark-tra.png">
+    </footer>
+
+    <script src="transition.js"></script>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('nav');
+    
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active'); 
+        });
+    </script>
+    
+</body>
+</html>

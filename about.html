@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Leaf & Latte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <section class="about-hero">
+        <header>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <nav id="nav" class="hidden">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <h1>Leaf & Latte</h1>
+            </div>
+        </header>
+        
+
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>At Leaf & Latte, we blend the beauty of nature with the art of coffee. Our cafe is a peaceful oasis, offering high-quality, sustainably sourced coffee in a serene, plant-filled space. We are committed to eco-friendly practices, ensuring that every cup you enjoy supports both the environment and local communities.</p>
+
+                <p>Whether you're here for a quick coffee or a relaxing escape, Leaf & Latte offers a tranquil atmosphere where you can unwind, recharge, and savor nature's finest flavors.</p>
+
+                <h3 class="highlighted-text">Hey Coffee Lovers!</h3>
+                <p class="subtext">Tired of missing out on the best brews and offers? With Leaf & Latte, you can stay in the loop on our latest coffee specials and seasonal treats. Discover what’s brewing and enjoy exclusive offers at your favorite nature-inspired cafe.</p>
+
+                <p class="subtext">Download the app now and never miss a moment!</p>
+
+            <h3 class="highlighted-text">Join Leaf & Latte and share the love!</h3>
+
+                <div class="app-buttons">
+                    <a href="#"><img src="img/gplay.png" alt="Google Play"></a>
+                    <a href="#"><img src="img/apple.png" alt="App Store"></a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="img/sipping_corner_interior.jpg" alt="Cafe Interior">
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h3>Contact Us</h3>
+            <p>Email: LeafLatte@gmail.com</p>
+            <p>Phone: +91722387444</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Leaf & Latte. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <img src="img/facebook-twitter-instagram-logo-number-symbol-text-trademark-tra.png" alt="Social Media Icons">
+    </footer>
+
+    <script src="transition.js"></script>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('nav');
+    
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+    
+</body>
+</html>

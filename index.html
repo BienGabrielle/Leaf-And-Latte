@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaf & Latte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <section class="hero">
+        <header>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <nav id="nav" class="hidden">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <h1>Leaf & Latte</h1>
+            </div>
+        </header>
+        
+
+        <div class="hero-content">
+            <div class="hero-images">
+                <img src="img/nature-themed-cafes-near-jb-checkpoint-naug-just-plants-exterior.png" alt="Cafe Exterior" class="hero-img active">
+                <img src="img/Main-Cover-Image.jpg" alt="Outdoor" class="hero-img">
+                <img src="img/18161927-1920-x-1200-px-33_cover_1920x1200.jpg" alt="Indoor" class="hero-img">
+            </div>
+            <div class="hero-text">
+                <h2>Discover the best coffee</h2>
+                <p>Welcome to our nature-inspired cafe, where fresh flavors meet a serene, green ambiance. Relax, sip, and enjoy the essence of nature with every bite.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>High Quality</h3>
+            <p>We source the finest ingredients to craft each cup with precision and passion, ensuring every sip is a delightful experience.</p>
+        </div>
+        <div class="feature">
+            <h3>Relaxing Ambience</h3>
+            <p>Surround yourself with nature's tranquility in our cozy, plant-filled space—perfect for unwinding and enjoying your favorite brew.</p>
+        </div>
+        <div class="feature">
+            <h3>Sustainable Sourcing</h3>
+            <p>We are committed to eco-friendly practices, offering sustainably sourced coffee that supports both the environment and local farmers.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Leaf & Latte. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <img src="img/facebook-twitter-instagram-logo-number-symbol-text-trademark-tra.png" alt="Social Media Icons">
+    </footer>
+    
+    <script src="transition.js"></script>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('nav');
+    
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active'); 
+        });
+    </script>
+    
+</body>
+</html>
